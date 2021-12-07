@@ -3,7 +3,7 @@ using System.IO;
 
 namespace Log.to.Text.File
 {
-    class SessionLog
+    public class SessionLog
     {
         private readonly string _directory;
         private readonly string _fileName;
