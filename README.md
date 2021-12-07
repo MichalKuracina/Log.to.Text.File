@@ -24,7 +24,12 @@ string publicProperty = log.FilePath;
 
 # Example
 ```cs
-class Program
+using System;
+using Log.to.Text.File;
+
+namespace Example
+{
+    class Program
     {
         static void Main(string[] args)
         {
@@ -44,6 +49,7 @@ class Program
             }
         }
     }
+}
 ```
 
 # Session_Log_07122021_125838.txt
