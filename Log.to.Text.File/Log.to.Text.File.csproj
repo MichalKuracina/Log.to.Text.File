@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Michal Kuracina</Authors>
+    <Description>Helper class which writes to TXT. Useful when running scheduled scripts and you want to have something to double check what was done and when.</Description>
+  </PropertyGroup>
+
+</Project>
