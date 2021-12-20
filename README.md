@@ -1,6 +1,8 @@
 # About
 Helper class which writes to txt file. Useful when running scheduled scripts and you want to have something to double check what was done and when.
 
+Not sure if it runs with `.Net Framework` and I won't try. It works with `.Net 5` and higher.
+
 ## Usage
 Initiate logger like this (uses ```System.AppDomain.CurrentDomain.BaseDirectory``` to determine the destination directory):
 ```cs
