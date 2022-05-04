@@ -47,7 +47,6 @@ namespace Example
             catch (System.Exception e)
             {
                 log.Write(e);
-                
             }
         }
     }
