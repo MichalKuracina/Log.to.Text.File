@@ -41,14 +41,14 @@ namespace Log.to.Text.File
         public void Write(string text)
         {
             using StreamWriter sw = System.IO.File.AppendText(_path);
-            sw.WriteLine($"{DateTime.Now} {text}");
+            sw.WriteLine($"{DateTime.Now} >> {text}");
         }
 
         public void Write(Exception e)
         {
             using StreamWriter sw = System.IO.File.AppendText(_path);
-            sw.WriteLine($"{DateTime.Now} EXCEPTION MESSAGE: {e.Message}");
-            sw.WriteLine($"{DateTime.Now} STACK TRACE: {e.StackTrace}");
+            sw.WriteLine($"{DateTime.Now} >> EXCEPTION MESSAGE: {e.Message}");
+            sw.WriteLine($"{DateTime.Now} >> STACK TRACE: {e.StackTrace}");
         }
     }
 }

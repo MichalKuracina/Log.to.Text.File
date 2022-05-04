@@ -1,12 +1,33 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
-    <Authors>Michal Kuracina</Authors>
+    <TargetFrameworks>netcoreapp3.1;net5.0;net6.0</TargetFrameworks>
+    <Authors>MichalKuracina</Authors>
     <Description>Helper class which writes to TXT. Useful when running scheduled scripts and you want to have something to double check what was done and when.</Description>
     <RepositoryUrl>https://github.com/MichalKuracina/Log.to.Text.File</RepositoryUrl>
-    <PackageTags>log logger text txt</PackageTags>
-    <Version>2.0.0</Version>
+    <PackageTags>log;logger;text;txt</PackageTags>
+    <Version>3.0.4</Version>
+    <PackageReleaseNotes>Repacked for .netcore3.1, net5 and net6</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Company>MichalKuracina</Company>
+    <PackageIcon>chicken.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\chicken.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 
 </Project>
