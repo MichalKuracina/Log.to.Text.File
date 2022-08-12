@@ -1,16 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.1;net5.0;net6.0</TargetFrameworks>
+    <TargetFrameworks>netcoreapp3.1-windows;net5.0-windows;net6.0-windows</TargetFrameworks>
     <Authors>MichalKuracina</Authors>
-    <Description>Helper class which writes to TXT. Useful when running scheduled scripts and you want to have something to double check what was done and when.</Description>
+    <Description>Helper class which writes to TXT. Useful when running scheduled scripts and you want to have something to double check what was done and when. Screenshots are tracked in the text file.</Description>
     <RepositoryUrl>https://github.com/MichalKuracina/Log.to.Text.File</RepositoryUrl>
-    <PackageTags>log;logger;text;txt</PackageTags>
-    <Version>3.0.4</Version>
-    <PackageReleaseNotes>Repacked for .netcore3.1, net5 and net6</PackageReleaseNotes>
+    <PackageTags>log;logger;text;txt;screenshot</PackageTags>
+    <Version>4.0.0</Version>
+    <PackageReleaseNotes>Added 'Screenshot' method, Repaced for only Windows usage</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Company>MichalKuracina</Company>
     <PackageIcon>chicken.png</PackageIcon>
+	  <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
   <ItemGroup>
