@@ -47,7 +47,6 @@ namespace Example
             catch (System.Exception e)
             {
                 log.Write(e);
-                
             }
         }
     }
@@ -56,8 +55,8 @@ namespace Example
 
 # Session_Log_07122021_125838.txt
 ```txt
-12/7/2021 12:58:38 PM I declared an array
-12/7/2021 12:58:38 PM I set 99 to second index
-12/7/2021 12:58:38 PM EXCEPTION MESSAGE: Index was outside the bounds of the array.
-12/7/2021 12:58:38 PM STACK TRACE:    at Log_to_TXT.Program.Main(String[] args) in C:\Users\USER\source\repos\Log_to_TXT\Log_to_TXT\Program.cs:line 15
+12/7/2021 12:58:38 PM >> I declared an array
+12/7/2021 12:58:38 PM >> I set 99 to second index
+12/7/2021 12:58:38 PM >> EXCEPTION MESSAGE: Index was outside the bounds of the array.
+12/7/2021 12:58:38 PM >> STACK TRACE:    at Log_to_TXT.Program.Main(String[] args) in C:\Users\USER\source\repos\Log_to_TXT\Log_to_TXT\Program.cs:line 15
 ```
